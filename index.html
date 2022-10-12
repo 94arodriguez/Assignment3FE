@@ -8,69 +8,86 @@
   </head>
 
   <body class="background">
-    <header id="header">
-      <h1 id="yellow">Navigation Menu</h1>
-      <a href="index.html" class="button">Main Menu</a>
-      <a href="post.html" class="button">Newest Post</a>
-      <a href="posts.html" class="button">All Posts</a>
-      <a href="create.html" class="button">Create Post</a>
-      <br />
-      <br />
-      <form action="">
-        <label for="search">Search:</label>
-        <input type="search" name="search" id="search" class="box" />
-      </form>
-    </header>
-    <hr />
-    <main>
-      <figure class="centered">
-        <a href="http://www.wtamu.edu">
-          <img
-            src="images/wt.png"
-            alt="West Texas A&M Logo"
-            height="100"
-            width="757"
-          />
-        </a>
-        <figcaption>Fig 1. West Texas A&M Logo</figcaption>
-      </figure>
-      <hr />
-      <section class="centered">
-        <h1>Introduction</h1>
-        <p>
-          This blog serves to further educate readers about West Texas A&M
-          University and all that it has to offer students!
-        </p>
-        <aside>
-          <h4>West Texas A&M University</h4>
+    <div id="indexlayout">
+      <div id="icone">
+        <header id="header">
+          <a href="index.html" class="button">Main Menu</a>
+          <a href="post.html" class="button">Newest Post</a>
+          <a href="posts.html" class="button">All Posts</a>
+          <a href="create.html" class="button">Create Post</a>
+          <br />
+          <br />
+        </header>
+      </div>
+      <div id="ictwo">
+        <figure class="centered">
+          <a href="http://www.wtamu.edu">
+            <img
+              src="images/wt.png"
+              alt="West Texas A&M Logo"
+              height="100"
+              width="757"
+            />
+          </a>
+          <figcaption>Fig 1. West Texas A&M Logo</figcaption>
+        </figure>
+      </div>
+      <div id="icfour">
+        <section class="centered">
+          <h1>Introduction</h1>
           <p>
-            <em
-              >West Texas A&M University is a Division II school that resides in
-              Canyon, Texas. Canyon, Texas is in the Panhandle roughly 20 miles
-              South of Amarillo.</em
-            >
+            This blog serves to further educate readers about West Texas A&M
+            University and all that it has to offer students! Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Iure aut porro, temporibus
+            doloremque harum aliquam modi consequuntur voluptatum, minima
+            commodi expedita ducimus, sint consequatur laudantium dignissimos
+            fugiat. Quo, illum doloremque. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Iure aut porro, temporibus doloremque
+            harum aliquam modi consequuntur voluptatum, minima commodi expedita
+            ducimus, sint consequatur laudantium dignissimos fugiat. Quo, illum
+            doloremque.
           </p>
-        </aside>
-      </section>
-      <hr />
-      <article class="centered">
-        <h1>About WTAMU</h1>
-        <blockquote
-          cite="https://www.wtamu.edu/about/information/future-students.html"
-        >
-          <p>
-            Welcome to Canyon, where West Texas A&M University was established
-            in 1910. More than 100 years since the opening of a refurbished Old
-            Main, campus has extended to include 342-acres with more than 60
-            buildings and a second location approximately 15 miles north called
-            Harrington Academic Hall WTAMU Amarillo Center. The WT campuses host
-            an array of local community activities as well as University
-            happenings.
-          </p>
-        </blockquote>
-
-        <details>
-          <summary id="author"><b>The University at a Glance</b></summary>
+          <aside>
+            <h4>West Texas A&M University</h4>
+            <p>
+              <em
+                >West Texas A&M University is a Division II school that resides
+                in Canyon, Texas. Canyon, Texas is in the Panhandle roughly 20
+                miles South of Amarillo. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Iure aut porro, temporibus doloremque harum
+                aliquam modi consequuntur voluptatum, minima commodi expedita
+                ducimus, sint consequatur laudantium dignissimos fugiat. Quo,
+                illum doloremque. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Iure aut porro, temporibus doloremque harum
+                aliquam modi consequuntur voluptatum, minima commodi expedita
+                ducimus, sint consequatur laudantium dignissimos fugiat. Quo,
+                illum doloremque. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Iure aut porro, temporibus doloremque harum
+                aliquam modi consequuntur voluptatum, minima commodi expedita
+                ducimus, sint consequatur laudantium dignissimos fugiat. Quo,
+                illum doloremque.</em
+              >
+            </p>
+          </aside>
+        </section>
+      </div>
+      <div id="icthree">
+        <article class="centered">
+          <h1>About WTAMU</h1>
+          <blockquote
+            cite="https://www.wtamu.edu/about/information/future-students.html"
+          >
+            <p>
+              Welcome to Canyon, where West Texas A&M University was established
+              in 1910. More than 100 years since the opening of a refurbished
+              Old Main, campus has extended to include 342-acres with more than
+              60 buildings and a second location approximately 15 miles north
+              called Harrington Academic Hall WTAMU Amarillo Center. The WT
+              campuses host an array of local community activities as well as
+              University happenings.
+            </p>
+          </blockquote>
+          <p id="author"><b>The University at a Glance</b></p>
           <ul>
             <li><b>Location:</b> Canyon, Texas (pop. 15,300)</li>
             <li><b>Established:</b> 1910</li>
@@ -88,13 +105,11 @@
             <li><b>Nickname:</b> Buffaloes or Buffs</li>
             <li><b>School Colors:</b> Maroon and White</li>
           </ul>
-        </details>
-      </article>
-    </main>
-    <hr />
-    <footer>
-      <p id="yellow">Author: Alec Rodriguez</p>
-      <p><a href="#header" class="button">Back to Top</a></p>
-    </footer>
+        </article>
+      </div>
+      <footer id="icfive">
+        <p id="yellow">Author: Alec Rodriguez</p>
+      </footer>
+    </div>
   </body>
 </html>
